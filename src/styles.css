@@ -68,7 +68,22 @@ a:hover, button:hover {
     color: #262626;
 }
 
-.nav-link button:hover {
+.nav-link button:hover, .nav-link button.selected {
     border-bottom: 3px solid #FF4D4D;
     transition: all 200ms ease-in;
+}
+
+footer {
+    padding: 20px;
+}
+
+.img-credit {
+    font-size: 1.2rem;
+    color: #262626;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.img-credit a {
+    color: #262626;
 }

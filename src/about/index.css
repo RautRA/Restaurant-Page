@@ -1,28 +1,33 @@
-.hero {
+.about {
     padding: 25px 100px;
     margin-top: 25px;
     display: flex;
 }
 
-.hero-title {
-    font-size: 4.8rem;
-    font-weight: 800;
-    letter-spacing: 2px;
-    margin-bottom: 200px;
-}
-
-.hero-text {
+.about-text {
     flex: 2;
 }
 
-.hero-text p {
+.about-heading {
+    font-size: 4.8rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin-bottom: 150px;
+}
+
+.about-img {
+    width: 330px;
+    margin-right: 80px;
+}
+
+.about-text p {
     font-size: 2.4rem;
     font-weight: 600;
     margin-bottom: 30px;
     color: #262626;
 }
 
-.hero-cta button {
+.read-more-btn {
     text-transform: uppercase;
     background-color: #FF4D4D;
     color: #FFE6E6;
@@ -35,12 +40,8 @@
     margin-right: 30px;
 }
 
-.hero-cta button:hover {
+.read-more-btn:hover {
     background-color:#FFE6E6;
     color: #FF4D4D;
     transition: all 200ms ease-in;
-}
-
-.hero-img {
-    width: 450px;
 }
